@@ -1,5 +1,4 @@
 all:
-	g++ -o PasswordGenerator PasswordGenerator.cpp
-	./PasswordGenerator $(pl)
+	g++ -o pwdgen PasswordGenerator.cpp
 clean:
 	rm PasswordGenerator

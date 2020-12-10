@@ -6,13 +6,17 @@ This is my version of a random password generator in C++. It's written to be use
 
 You may specify password length from inside the program or on the command line. The character sets must be specified in the program. 
 
-To use the makefile, run this in the terminal:
+To compile the program with the makefile, enter this command into the terminal:
 
 `make`
 
+To run the program, enter this command into the terminal (after compiling):
+
+`./pwdgen`
+
 OR
 
-`make pl=[password length]`
+`./pwdgen [password length]`
 
 To remove the binary file after being compiled and run, use this command:
 
